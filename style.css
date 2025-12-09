@@ -205,9 +205,7 @@ nav{
 .nav__row{
     display: flex;
     justify-content: space-between;
-   
-    
-}
+   }
 
 
 
@@ -216,6 +214,12 @@ nav{
 Header/about us
 
 */
+
+header .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .header__email {
     width: 100%;
@@ -263,4 +267,27 @@ Header/about us
 
 .header__description--para{
     margin: 32px 0;
+}
+
+.header__customers--title{
+    margin-top: 80px;
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.6;
+}
+
+.header__customer{
+    margin-top: 16px;
+    padding-right: 128px;
+    opacity: 0.5;
+}
+
+.header__img--wrapper{
+   width: calc(100% - 40%);
+}
+
+.header__img{
+    width: 100%;
+    max-width: 768px;
 }
