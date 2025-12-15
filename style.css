@@ -191,6 +191,10 @@ NAVIGATION
   margin: 0 24px;
 }
 
+.nav__link:hover:after{
+opacity: 1;
+}
+
 .nav__link--primary {
   margin: 0;
   padding: 10px 32px;
@@ -218,10 +222,7 @@ NAVIGATION
   justify-content: space-between;
 }
 
-.nav__link:after .nav__link:hover {
-  transition: opacity 300ms ease;
-  opacity: 1;
-}
+
 /* 
 
 Header/about us
@@ -271,6 +272,10 @@ header .row {
   font-weight: 700;
   font-size: 16px;
   transition: all 300ms ease;
+}
+
+.header__email--btn:hover{
+  background-color: rgba(80, 17, 204);
 }
 
 .header__description {
@@ -413,6 +418,9 @@ QUALITY
   cursor: pointer;
 }
 
+.btn:hover{
+  background-color: rgba(80, 17, 204);
+}
 .quality__img {
   z-index: 1;
 }
