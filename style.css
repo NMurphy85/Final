@@ -397,6 +397,11 @@ Features
   margin-top: 40px;
 }
 
+ #features .section__title, 
+      #pricing .section__title{
+      text-align: center;
+      }
+
 /*
 
 
@@ -1358,6 +1363,11 @@ MEDIA QUERIES
     .values__list{
     max-width: 20rem;
     flex-direction: column;
+    }
+
+    .plans {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
